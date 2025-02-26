@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  h1 {
+    margin-top: 50px;
+  }
+  .boton-no {
+    background-color: #f28a49a4;
+    color: #000000;
+    border-color: #fff;
+    border-style: inset;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+  }
+  .boton-si {
+    background-color: #f28a49a4;
+    color: #000000;
+    border-color: #fff;
+    border-style: inset;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+  }

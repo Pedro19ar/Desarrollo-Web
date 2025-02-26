@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Calculadora :v</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="calculadora">
+        <div id="pantalla" class="pantalla">0</div>
+        <div class="botones">
+          <!-- Fila 1 -->
+          <button class="boton-operador" onclick="limpiarPantalla()">C</button>
+          <button class="boton-operador" onclick ="retroceso()">←</button>
+          <button class="boton-operador" onclick="agregarAPantalla('/')">/</button>
+          <button class="boton-operador" onclick="agregarAPantalla('*')">*</button>
+          
+          <!-- Fila 2 -->
+          <button onclick="agregarAPantalla('7')">7</button>
+          <button onclick="agregarAPantalla('8')">8</button>
+          <button onclick="agregarAPantalla('9')">9</button>
+          <button class="boton-operador" onclick="agregarAPantalla('-')">-</button>
+          
+          <!-- Fila 3 -->
+          <button onclick="agregarAPantalla('4')">4</button>
+          <button onclick="agregarAPantalla('5')">5</button>
+          <button onclick="agregarAPantalla('6')">6</button>
+          <button class="boton-operador" onclick="agregarAPantalla('+')">+</button>
+          
+          <!-- Fila 4 -->
+          <button onclick="agregarAPantalla('1')">1</button>
+          <button onclick="agregarAPantalla('2')">2</button>
+          <button onclick="agregarAPantalla('3')">3</button>
+          <button class="boton-resultado" onclick="calcular()">=</button>
+          
+          <!-- Fila 5 -->
+          <button style="grid-column: span 2;" onclick="agregarAPantalla('0')">0</button>
+          <button onclick="agregarAPantalla('.')">.</button>
+        </div>
+      </div>
+      
+
+    <script src="script.js"></script>
+</body>
+</html>
